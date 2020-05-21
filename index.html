@@ -18,7 +18,17 @@
 <body class="fullscreen">
   <div class="container">
     <h1 class="title">Hello World!</h1>
+<div id="myElement"></div>
   </div>
   <script src="js/main.js"></script>
+<script src="https://cdn.jwplayer.com/libraries/vU4V7Vjp.js"></script>
+    <script type="text/JavaScript">
+
+        jwplayer("myElement").setup({
+            playlist: "https://cdn.jwplayer.com/v2/playlists/sDU2WcYA",
+            height: 360,
+            width: "100%"
+      });
+    </script>
 </body>
 </html>
